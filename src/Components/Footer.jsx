@@ -12,6 +12,6 @@ export const Div = styled.div`
 
 export default function Footer(){
 return(
-    <Div>coe</Div>
+    <Div></Div>
 )
 }

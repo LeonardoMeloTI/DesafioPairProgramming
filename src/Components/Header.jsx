@@ -16,11 +16,20 @@ export const List = styled.ul`
         text-transform: uppercase;
         text-decoration: none;
     }
+    li{ 
+        margin-left:2px;
+        border:solid;
+        padding:1px;
+        position:relative;top:0}
+        li:hover{top:-4px;box-shadow:0 20px 4px #999;
+        transition: all .2s ease-in-out
+    }
     
     @media screen and (max-width:50rem){
         display: none;
     }
 `;
+
 
 export default function Header(){
     return (

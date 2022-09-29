@@ -2,7 +2,6 @@ import React from'react'
 import Container3 from './Components/Container3'
 import Form from './Components/Form'
 import Footer from './Components/Footer'
-import Header from './Components/Header'
 import Recipes from './Components/Recipes'
 import Nav from './Components/Nav'
 

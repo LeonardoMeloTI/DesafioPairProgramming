@@ -32,6 +32,7 @@ export const Li = styled.li`
 
 export default function Footer(){
 return(
+<<<<<<< HEAD
     <Div>
         <Nav>
             <img src="Facebook" alt="" />
@@ -42,5 +43,8 @@ return(
             </Ul>
         </Nav>
     </Div>
+=======
+    <Div></Div>
+>>>>>>> 7f5763974545ab92ac1fa4bc43f924326b53ae8c
 )
 }

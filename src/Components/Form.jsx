@@ -7,6 +7,7 @@ export const Div = styled.div`
     justify-content: center;
     flex-direction: column;
     background-color: #DFE4DE;
+    padding: 50px;
 `
 export const H3 = styled.h3`
     color:#373737;

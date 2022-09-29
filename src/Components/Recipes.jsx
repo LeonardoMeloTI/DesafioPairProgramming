@@ -1,7 +1,7 @@
 
-import Cake from '../img/cake.png';
-import Pizza from '../img/pizza.png';
-import Juice from '../img/juice.png';
+import Cake from './img/cake.png';
+import Pizza from './img/pizza.png';
+import Juice from './img/juice.png';
 import styled from "styled-components";
 import Title from './Title'
 import Card from './Cards';

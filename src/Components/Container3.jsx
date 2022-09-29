@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import spoon from '../img/spoon.png'
+import spoon from './img/spoon.png'
 
 export const Container = styled.div`
     display: flex;

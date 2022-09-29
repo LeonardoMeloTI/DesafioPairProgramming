@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from "../img/logo.png"
-import Background from "../img/background.png";
+import Logo from "./img/logo.png"
+import Background from "./img/background.png";
 import Header from './Header';
 import styled from 'styled-components'
 

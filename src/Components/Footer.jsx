@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import Instagram from '../img/Instagram.png'
+import Twitter from '../img/Twitter.png'
+import Facebook from '../img/Facebook.png'
+import Pinterest from '../img/Pinterest.png'
 
 export const Div = styled.div`
     
@@ -27,15 +30,33 @@ export const Li = styled.li`
     padding: 30px;
     list-style: none;
     cursor: pointer;
-`
+    transition: 1s all;
+    
 
+`
+export const Figure = styled.figure`
+display: flex;
+align-items: center;
+width: 50%;
+`
+export const Img = styled.img`
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    
+`
 
 export default function Footer(){
 return(
-<<<<<<< HEAD
+
     <Div>
         <Nav>
-            <img src="Facebook" alt="" />
+        <Figure>
+                <Img src={Instagram} alt="Instagram" />
+                <Img src={Twitter} alt="Twitter" />
+                <Img src={Facebook} alt="Facebook" />
+                <Img src={Pinterest} alt="Pinterest" />
+        </Figure>
             <Ul>
                 <Li>ABAOUT</Li>
                 <Li>RECIPES</Li>
@@ -43,8 +64,8 @@ return(
             </Ul>
         </Nav>
     </Div>
-=======
-    <Div></Div>
->>>>>>> 7f5763974545ab92ac1fa4bc43f924326b53ae8c
+
+    
+
 )
 }
